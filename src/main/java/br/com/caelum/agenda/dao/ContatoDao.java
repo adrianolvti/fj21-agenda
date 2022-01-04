@@ -1,4 +1,4 @@
-package br.com.caelum.dao;
+package br.com.caelum.agenda.dao;
 
 import java.sql.Connection;
 import java.sql.Date;
@@ -9,8 +9,8 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 
-import br.com.caelum.jdbc.ConnectionFactory;
-import br.com.caelum.model.Contato;
+import br.com.caelum.agenda.jdbc.ConnectionFactory;
+import br.com.caelum.agenda.model.Contato;
 
 public class ContatoDao {
 	// conexão com o banco de dados
